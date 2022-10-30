@@ -1,0 +1,18 @@
+                                        TO DO LIST
+
+- moving containers
+- deisgn containers : hartie, sticla, plastic
+- falling objects 
+- reset containers
+- lvls
+- stopwatch
+
+- home page
++descriere
++start button
+
+- copac
+
+
+
+- PREZENTARE -
