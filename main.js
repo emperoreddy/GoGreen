@@ -1,29 +1,22 @@
-// var dragValue;
-
-//     function move(id){
-//         var element = document.getElementById("trash-verde");
-//         element.style.position = "absolute";
-//         element.onmousedown =  function(){
-//             dragValue = element;
-//         }
-//     }
-
-//     document.onmousemove =  function(e){
-//         var x= e.pageX;
-//         var y= e.pageY;
-
-//         dragValue.style.left = x + "px";
-//         dragValue.style.top = y + "px";
-//     }
-
-
-
-const CHARACTER_POSITION = 1000;
+const CHARACTER_POSITION = 1200;
 
 function click_to_start() {
   document.onmousemove = function (e) {
     var x = e.clientX;
-    document.getElementById("character").style.marginLeft =
-      x - CHARACTER_POSITION - 45 + "px";
+
+    if (x > 350 && x < 1450) {
+    document.getElementById("trash-verde").style.marginLeft =
+      x - CHARACTER_POSITION - 100 + "px";
   };
+}}
+
+function generateGunoi()
+{
+  var gunoi = 470;
+  var
+  var gunoi = document.createElement("div");
+  gunoi.setAttribute("class","gunoi");
+  gunoi.append.Child(gunoi);
 }
+
+generateGunoi();
