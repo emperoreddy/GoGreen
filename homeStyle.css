@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background-color: rgb(0, 0, 0);
+  height: 10000px;
+}
+
+h1 {
+  font-size: 72px;
+  font-family: 'Poppins';
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(32, 191, 85, 1) 0%,
+    rgba(1, 186, 239, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+
+#navbar {
+    overflow: hidden;
+    background-color: rgb(33, 33, 33);
+  }
+  
+  /* Navbar links */
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  }
