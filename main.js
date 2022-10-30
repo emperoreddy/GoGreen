@@ -79,6 +79,7 @@ function fallTrash() {
     }
     else  {alert("You lose! Your score is " + score.innerHTML);
     sticlaTop = 20;
+    score.innerHTML = 0;
   }
   }
   setInterval(fallDownGunoi, 20);
