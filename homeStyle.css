@@ -94,17 +94,16 @@ h1 {
     color: white;
   }
 
-/* .game {
-  margin-left: 400px;
+.game {
+  /* margin-left: 400px; */
   margin-top: 1600px;
-  width: 2000px;
+  width: 99.9%;
   height: 1500px;
   background-color: rgb(0, 0, 0);
   border: 1px solid rgb(0, 0, 0);
   border-radius: 10px;
   position: relative;
-  left: 100px;
-} */
+}
 
 
   .planet {

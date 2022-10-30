@@ -64,8 +64,9 @@ function fallTrash() {
       } else if (score.innerHTML == 10) {
         (document.getElementById("copac1").src = "copac2.png");
         document.getElementById("copac1").style.height = "600px";
-        document.getElementById("copac1").style.width = "600px";
-        document.getElementById("copac1").style.top = "600px";
+        document.getElementById("copac1").style.width = "500px";
+        document.getElementById("copac1").style.top = "500px";
+        document.getElementById("copac1").style.right = "200px";
         
       } else if (score.innerHTML == 20) {
         (document.getElementById("copac1").src = "copac3.png");
@@ -86,15 +87,18 @@ function fallTrash() {
   setTimeout(fallDownGunoi, 2000);
 }
 
-fallTrash();
+function click_to_start_game(){
+  fallTrash();
+}
 
-var timer;
-var ele = document.getElementById('timer');
 
-(function (){
-  var sec = 0;
-  timer = setInterval(()=>{
-    ele.innerHTML = '00:'+sec;
-    sec ++;
-  }, 1000) 
-})() 
+// var timer;
+// var ele = document.getElementById('timer');
+
+// (function (){
+//   var sec = 0;
+//   timer = setInterval(()=>{
+//     ele.innerHTML = '00:'+sec;
+//     sec ++;
+//   }, 1000) 
+// })() 
