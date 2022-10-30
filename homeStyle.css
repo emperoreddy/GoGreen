@@ -1,7 +1,13 @@
+
+
 @import url(https://fonts.googleapis.com/css?family=Poppins);
 * {
+  @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
   margin: 0;
   padding: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
 
@@ -21,12 +27,15 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
+  margin-top: 150px;
 }
 
 
 #navbar {
+  
     overflow: hidden;
     background-color: rgb(33, 33, 33);
+    height: 100px;
   }
   
   /* Navbar links */
@@ -37,6 +46,12 @@ h1 {
     text-align: center;
     padding: 14px;
     text-decoration: none;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 10px;
+    position: relative;
+    left: 1240px;
+    font-weight: bold;
   }
   
   /* Page content */
@@ -44,14 +59,73 @@ h1 {
     padding: 16px;
   }
   
-  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+
   .sticky {
     position: fixed;
     top: 0;
     width: 100%;
   }
   
-  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+
   .sticky + .content {
     padding-top: 60px;
   }
+
+  h2{
+    margin-left: 100px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    text-align: left;
+    text-decoration: underline;
+  }
+
+  p1{
+    margin-top: -100px;
+    text-align: left;
+    font-size: 30px;
+    text-indent: 50px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+
+  .planet {
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 1600px;
+    left: 120px;
+    width: 900px;
+    height: 1000px;
+  }
+
+  /* #jocButton{
+    width: 10%;
+    border-radius: 50%;
+    padding: 1em;
+    border: none;
+    text-align: center;
+    /* color: green; */
+    font-size: 2rem;
+    box-shadow: inset 0 0 0 0   yellowgreen;
+    transition: ease-out 0.5s;
+    /* background-color: black; */
+/* }
+#jocButton:hover{
+  box-shadow: inset 300px 0 0 0 green;
+}
+
+.fa-solid{
+  color: green;
+  font-size: 20;
+  
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+} */ */
