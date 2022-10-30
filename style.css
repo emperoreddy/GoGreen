@@ -1,4 +1,7 @@
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 480px)
+
+ {
+    @layer theme, layout, utilities;
   * {
     margin: 0;
     padding: 0;
@@ -20,7 +23,7 @@
     border: 5px solid black;
     margin: auto;
     overflow: hidden;
-    background-color: rgba(0, 149, 0, 0.9);
+    background-color: cyan;
     border-radius: 10px;
     margin-top: 100px;
   }
@@ -63,9 +66,9 @@
 #trash-verde{
     background-image: url("./verde-sticladesticla.png");
     position: absolute;
-    height: 100%;
-    width: 100%;
-    margin-top: 950px;
+    height: 300px;
+    width: 300px;
+    top: 1050px;
     left: 1200px;
     background-repeat: no-repeat;
     background-size: 220px 250px;
@@ -75,12 +78,54 @@
 
 #sticla{
     background-image: url("./sticla.png");
+    /* background-color: black; */
     position: absolute;
+    height: 270px;
+    width: 200px;
+    top: 20px;
+    left: 1200px;
     background-repeat: no-repeat;
-    width: 30px;
-    height: 30px;
+    background-size: 220px 250px;
 }
 
+#hartie{
+    background-image: url("./hartie.png");
+    /* background-color: black; */
+    position: absolute;
+    height: 270px;
+    width: 200px;
+   
+    margin-top: -1500px;
+    left: 800px;
+    background-repeat: no-repeat;
+    background-size: 190px 250px;
+}
+
+#metal{
+    background-image: url("./metal.png");
+    /* background-color: black; */
+    position: absolute;
+    height: 270px;
+    width: 200px;
+   
+    margin-top: -1500px;
+    left: 1000px;
+    background-repeat: no-repeat;
+    background-size: 190px 250px;
+}
+
+#plastic{
+    background-image: url("./plastic.png");
+    /* background-color: black; */
+    position: absolute;
+    height: 270px;
+    width: 200px;
+   
+    margin-top: -1500px;
+    left: 1500px;
+    background-repeat: no-repeat;
+    background-size: 130px 260px;
+}
 
 
 
@@ -92,7 +137,7 @@
     position: absolute;
     height: 100%;
     width: 100%;
-    margin-top: 1050px;
+    margin-top: 950px;
     left: 550px;
     background-repeat: no-repeat;
     background-size: 220px 250px;
@@ -105,7 +150,7 @@
     position: absolute;
     height: 100%;
     width: 100%;
-    margin-top: 1050px;
+    margin-top: 950px;
     left: 1800px;
     background-repeat: no-repeat;
     background-size: 220px 250px;
@@ -115,3 +160,12 @@
 
 
 }
+
+
+/* #stopwatch{
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    margin auto;
+    padding-top: 20px;
+} */
