@@ -2,7 +2,8 @@
 
 
 **The project was made in the N-Able Hackathon event, alongside my team, [Serban Corodescu](https://github.com/LowBudgetChaplin).**
-** Be ware, I haven't changed even a line of code after the hackathon so it will remain the same experience and file structure, even though it's awful. Thanks for understanding :>
+
+**Beware, I haven't changed even a line of code after the hackathon so it will remain the same experience and file structure, even though it's awful. Thanks for understanding :>**
 
 ---
 
