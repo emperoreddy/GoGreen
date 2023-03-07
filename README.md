@@ -6,6 +6,10 @@
 **Beware, I haven't changed even a line of code after the hackathon so it will remain the same experience and file structure, even though it's awful. Thanks for understanding :>**
 
 ---
+![gogreen](https://user-images.githubusercontent.com/14115915/223575478-a1738b39-5082-43a1-95f9-f2955735fcd5.png)
+
+![image](https://user-images.githubusercontent.com/14115915/223575379-222a5701-9138-4bdf-94ad-98d35096ac8a.png)
+
 
 Helping children have a 'green' attitude from an early age is difficult, so we made a website on which everybody (but most important, children) can learn to make an impact by recycling into different containers and the usage of less non-biodegradable items.
 The website contains an informative page with a interractive game.
